@@ -46,11 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 625ccb94bf93077498982c16ee690870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: 0
+  triggerType: 1
   weaponType: 0
-  fireRate: 1e-15
+  fireRate: 60
   reloadTime: 1
-  clipSize: 10000000
+  clipSize: 60
   damage: 5
   ammoType: 0
   projectilePrefab: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
   advancedSettings:
     spreadAngle: 2
     projectilePerShot: 1
-    screenShakeMultiplier: 1
+    screenShakeMultiplier: 5
   FireAnimationClip: {fileID: 7400006, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   ReloadAnimationClip: {fileID: 7400008, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   FireAudioClip: {fileID: 8300000, guid: 79c781879da4b6c4f8c7cd79fd034759, type: 3}
@@ -205,6 +205,11 @@ PrefabInstance:
     - target: {fileID: 1855924953560784703, guid: 278b664212d79401587c44e39c1420cb,
         type: 3}
       propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277417190578974469, guid: 278b664212d79401587c44e39c1420cb,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2984966042765702060, guid: 278b664212d79401587c44e39c1420cb,
